@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Programmes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 25% 75%; /* Top 80%, Bottom 20% */
+            grid-gap: 12px;
+        }
+
+        .top-section {
+            display: grid;
+            grid-template-columns: 25% 40% 35%; /* Three columns */
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .output-section {
+            border-top: 2px solid black;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="output-section">
+        <iframe src="topic.html" name="fourth"></iframe>
+    </div>
+    <div class="top-section">
+        <iframe src="question.html" name="first"></iframe>
+        <iframe src="code.html" name="second"></iframe>
+        <iframe src="output.html" name="third"></iframe>
+    </div>
+
+   
+</body>
+</html>
